@@ -17,13 +17,8 @@ export function Projects() {
     subtitle: "프로젝트",
     initialDisplay: 6,
     loadMoreCount: 3,
-    background: {
-      image: "",
-      video: "",
-      color: "",
-      opacity: 0.1
-    },
-    projects: [] as Array<{ image: string; video?: string; title: string; description: string }>
+    background: {"image":"","video":"","color":"","opacity":0.1},
+    projects: [{"image":"","video":"/uploads/project-1758256332250-1758256334608.mp4","title":"뉴스","description":"뉴스를 보기쉽게 쇼츠로"},{"image":"","video":"/uploads/project-1758256369224-1758256369492.mp4","title":"주식의 어려운용어","description":"주식의 어려운 용어를 쇼츠로 ..."}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)
